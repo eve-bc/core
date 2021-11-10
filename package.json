@@ -1,0 +1,19 @@
+{
+  "name": "@eve-bc/core",
+  "version": "1.0.0",
+  "description": "tool to create events to describe was a service does",
+  "main": "dist/main.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eve-bc/core.git"
+  },
+  "author": "CodingVampyre",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eve-bc/core/issues"
+  },
+  "homepage": "https://github.com/eve-bc/core#readme"
+}
