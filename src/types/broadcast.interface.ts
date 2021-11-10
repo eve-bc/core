@@ -10,12 +10,18 @@ export interface Broadcast {
     
     /** What Kind Of Broadcast will be sent */
     type: BroadcastType;
+
+    /** a normal, human readable text */
+    message: string;
     
     /** Few Metadata which can contain any further information */
     metadata?: { [key: string]: unknown };
     
     /** can be used to filter events later on */
     tags?: string[];
+    
+    /** ISO Time String */
+    timestamp: string;
     
     /** Predict who will receive an information */
     recipient?: {

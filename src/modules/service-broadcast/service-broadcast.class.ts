@@ -28,6 +28,7 @@ export class ServiceBroadcast {
             ...broadcastInput,
             service: this.serviceName,
             session: this.sessionUuid,
+            timestamp: new Date().toISOString(),
         }
         
         // deliver to plugins TODO

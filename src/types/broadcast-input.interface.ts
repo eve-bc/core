@@ -4,6 +4,9 @@ export interface BroadcastInput {
 
     /** What Kind Of Broadcast will be sent */
     type: BroadcastType;
+    
+    /** a normal, human readable text */
+    message: string;
 
     /** Few Metadata which can contain any further information */
     metadata?: { [key: string]: unknown };
