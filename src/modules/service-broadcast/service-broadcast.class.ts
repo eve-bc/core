@@ -22,6 +22,11 @@ export class ServiceBroadcast {
             await plugin.init();
     }
     
+    public async stop(): Promise<void> {
+        for (const plugin of this.plugins)
+            await plugin.stop();
+    }
+    
     public async announce(broadcastInput: BroadcastInput): Promise<void> {
         // compose broadcast
         const broadcast: Broadcast = {

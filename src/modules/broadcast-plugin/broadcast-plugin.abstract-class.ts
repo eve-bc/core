@@ -5,6 +5,8 @@ export abstract class BroadcastPlugin {
     
     public async init(): Promise<void> {}
     
+    public async stop(): Promise<void> {};
+    
     public abstract announce(broadcast: Broadcast): Promise<void>;
     
 }
