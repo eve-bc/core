@@ -1,7 +1,7 @@
 {
   "name": "@eve-bc/core",
-  "version": "1.0.0",
-  "description": "tool to create events to describe was a service does",
+  "version": "1.0.1",
+  "description": "tool to create events to describe what a service does",
   "main": "dist/main.js",
   "scripts": {
     "build": "tsc",
